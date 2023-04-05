@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Fitness</title>
+</head>
+
+<style>
+    body{
+        padding: 0px;
+        margin: 0px;
+        background: url(Pictures/bfg12.jpg); 
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 35px;
+        top: 60px;
+    }
+    .left img{
+        width: 100px;
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 30px auto; 
+        top: 20px;
+        color: aliceblue;
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        right: 35px;
+        top: 80px;
+        color: aliceblue;
+    }
+    h2{
+        font-family: sans-serif;
+        color: white;
+        width: auto;
+    }
+    .nav li{
+        color:aliceblue;
+        display: inline-block;
+    }
+    .nav li a{
+        color: antiquewhite;
+        text-decoration: none;
+        left: 70px;
+        margin: 10px;
+        font-size: 18px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .nav li a:hover{  
+        color:blue;
+        text-decoration: none;
+    }
+    .btn{
+        margin: 0px;
+        color:rgb(241, 11, 11);
+        border-radius: 8px;
+        text-decoration: none;
+        background-color: black;
+        padding: 3px 12px;
+    }
+    .btn:hover{
+        color:rgb(232, 235, 29);
+    }
+    .container{
+        color: aliceblue;
+        border: 2px solid grey;
+        margin: 100px 460px;
+        padding: 60px;
+        width: 29%;
+        border-radius: 28px;
+    }
+    .container h2{
+        font-family: sans-serif;
+    }
+    .form-group input{
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: block;
+        width: 154px;
+        padding: 6px;
+        border: 2px solid grey;
+        margin: 3px auto;
+        border-radius: 10px;
+        background-color: rgb(202, 199, 199);
+    }
+    .btn1{
+        text-align: center;
+        margin: 5px 137px;
+        color:rgb(241, 11, 11);
+        background-color: rgb(71, 93, 98);
+        padding: 3px 12px;
+        border-radius: 5px;
+    }
+    .btn1:hover{
+        color:rgb(20, 23, 163);
+    }
+    footer a{
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: rgb(144, 255, 8);
+    background-color: rgb(30, 33, 33);
+    }
+    footer a:hover{
+        color: red;
+    }
+    .motto{
+        color:rgb(203, 136, 11); 
+        margin: auto;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+</style>
+<body>
+    <h2>Welcome To Rohit Fitness center</h2>
+    <header class="header">
+        <div class= "left">
+            <img src="Pictures/icon_img.jpg" alt="">
+        </div>
+        <div class = "mid">
+            <ul class="nav">
+                <li> <a href="#" class="active">Home</a> </li>
+                <li><a href="#">About US</a> </li>
+                <li><a href="#">Fitness center</a> </li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class = "right">
+            <button class="btn">
+                Call us now
+            </button>
+            <button class="btn">
+                Email us
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join the Best GYM of Rathtala now</h2>
+        <marquee behavior="" direction="right"><h2 class="motto">Wake Up and Workout</h2></marquee>
+        <form action="mailto:rohitshaw3622@gmail.com">
+            <div class="form-group">
+                <input type="text" Name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" Name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" Name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" Name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn1">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Contact us</a>
+        <a href="#">Terms of use</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Refund policy</a>
+        <a href="#">&copy;  2023 | Rohit shaw</a>
+    </footer>
+</body>
+</html>
